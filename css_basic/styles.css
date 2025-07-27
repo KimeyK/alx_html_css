@@ -20,3 +20,59 @@ aside {
   overflow-y: auto;
 }
 
+/* Custom overall page styling */
+body {
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+/* Navigation styling */
+nav ul {
+  display: flex;
+  gap: 20px;
+  background-color: #003366;
+  padding: 10px 20px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: #ffcc00;
+  margin-right: auto;
+}
+
+/* Article styling */
+article {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+article h2 {
+  color: #003366;
+}
+
+article p {
+  line-height: 1.6;
+}
+
+/* Footer styling */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
