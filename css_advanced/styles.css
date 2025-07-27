@@ -12,7 +12,7 @@ header {
 
 .logo {
   font-weight: bold;
-  color: white;
+  color: black;
   font-size: 1.5rem;
 }
 
@@ -23,7 +23,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: white;
+  color: green;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 0.9rem;
@@ -56,7 +56,7 @@ nav ul li a {
 }
 
 .banner nav a {
-  color: white;
+  color: red;
   font-weight: 500;
   font-size: 0.9rem;
   text-transform: uppercase;
