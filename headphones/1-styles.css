@@ -1,0 +1,60 @@
+/* SECTION: What we do */
+.what-we-do {
+  background-color: #fff;
+  color: #1f1f1f;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.section-description {
+  font-size: 1rem;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service {
+  width: 200px;
+  padding: 20px;
+}
+
+.service .icon {
+  font-size: 48px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  display: block;
+}
+
+.service h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Responsive for What we do */
+@media (max-width: 480px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+}
